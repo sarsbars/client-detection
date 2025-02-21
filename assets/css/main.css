@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+body {
+    background-color: #191720;
+    font-family: "Roboto", Arial,sans-serif;
+    color: #fff;  
+}
+
+.container {
+    width: min(100% - 40px, 1080px);
+    margin-inline: auto;
+}
