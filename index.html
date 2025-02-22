@@ -6,7 +6,7 @@
         <meta name="author" content="Sarah Mitchell">
         <meta name="description" content="My new cool project">
         <meta name="keywords" content="web development, html, css, javascript, winnipeg, canada">
-        <title>Temperature Converter</title>
+        <title>Client Detection</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -16,27 +16,31 @@
         <script src="./assets/js/app.js" defer></script>
     </head>
     <body>
-        <section>
-            <div class="flex">
-                <div class="system">
-                    <h2>SYSTEM</h2>
-                    <p class="os"></p>
-                    <p class="language"></p>
-                    <p class="browser"></p>
+        <div class="container">
+            <section>
+                <div class="flex gap-20">
+                    <div class="box system">
+                        <h2 class="center">SYSTEM</h2>
+                        <p class="os"></p>
+                        <p class="lang"></p>
+                        <p class="browser"></p>
+                    </div>
+                    <div class="box window">
+                        <h2 class="center">WINDOW</h2>
+                        <p class="width"></p>
+                        <p class="height"></p>
+                        <p class="ori"></p>
+                    </div>
+                    <div class="box battery">
+                        <h2 class="center">BATTERY</h2>
+                        <p class="level"></p>
+                        <p class="status"></p>
+                    </div>
+                    <div class="network center">
+                        <h2 class="network-status">NETWORK</h2>
+                    </div>
                 </div>
-                <div class="window">
-                    <h2>WINDOW</h2>
-                    <p class="width"></p>
-                    <p class="height"></p>
-                    <p class="orientation"></p>
-                </div>
-                <div class="battery">
-                    <h2>BATTERY</h2>
-                    <p>Box 3</p>
-                </div>
-            </div>
-        </section>
-
+            </section>
+        </div>
     </body>
-
 </html>
